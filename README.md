@@ -1,4 +1,0 @@
-aliceother.github.io
-====================
-
-Blog
