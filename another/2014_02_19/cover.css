@@ -15,9 +15,31 @@ body {
 
 #xtra {
     position: relative;
-    top: 80%;
+    top: 70%;
     left: 55%;
     background-color: black;
     color: white;
     font-size: 80px;
+
+    transform: rotate(-18deg);
+    -webkit-transform: rotate(-18deg);
+    -o-transform: rotate(-18deg);
+}
+
+#tweeter {
+    position: absolute;
+    left: 220px;
+    top: 0px;
+    font-size: 32px;
+    padding-top: 9px;
+    text-align: center;
+}
+
+#tweeter A {
+    color: white;
+    text-decoration: none;
+}
+
+#tweeter A:hover {
+    color: orange;
 }
