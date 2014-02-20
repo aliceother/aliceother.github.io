@@ -21,6 +21,10 @@ a:hover {
     color: orange
 }
 
+h1, h2 {
+    font-weight: normal;
+}
+
 body > h1 {
     position: absolute;
     top: 0px;
