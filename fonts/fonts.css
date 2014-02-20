@@ -1,0 +1,18 @@
+@font-face {
+    font-family: 'chunk';
+    src: url('chunk.otf') format('opentype');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'fanwood';
+    src: url('fanwood.otf') format('opentype');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'league_script';
+    src: url('league_script.otf') format('opentype');
+    font-weight: normal;
+    font-style: normal;
+}
