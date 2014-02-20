@@ -165,7 +165,7 @@ body > h1 {
     padding-right: 20px;
     padding-bottom: 2em;
     width: 800px;
-    background-image: url('gray.png');
+    background-image: url('bg_white.png');
 }
 
 #article > p {
