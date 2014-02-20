@@ -162,7 +162,7 @@ body > h1 {
     padding-top: 115px;
     padding-left: 80px;
     padding-right: 20px;
-    padding-bottom: 2em;
+    padding-bottom: 4em;
     width: 800px;
     background-image: url('bg_white.png');
     font-family: fanwood;
@@ -217,7 +217,7 @@ img.left {
 
 #footer {
    position: relative;
-   margin-bottom: 10em;
+   margin-top: -3em;
 }
 
 #tweeter_hook {
