@@ -37,7 +37,7 @@ body > h1 {
     padding-left: 1em;
     padding-right: 1em;
 
-    z-index: 1;
+    z-index: 2;
 
     transform: rotate(-2deg);
     -webkit-transform: rotate(-2deg);
@@ -47,26 +47,10 @@ body > h1 {
 #title_part {
     position: absolute;
     top: 120px;
-    left: 15px;
-    background-color: #888;
+    left: 180px;
+    background-color: transparent;
     color: black;
-    font-size: 28px;
-
-    z-index: 2;
-
-    transform: rotate(-3deg);
-    -webkit-transform: rotate(-3deg);
-    -o-transform: rotate(-3deg);
-}
-
-#title {
-    position: absolute;
-    top: 70px;
-    left: 250px;
-    display: block;
-    background-color: white;
-    color: black;
-    font-size: 48px;
+    font-size: 24px;
 
     z-index: 3;
 
@@ -75,8 +59,18 @@ body > h1 {
     -o-transform: rotate(1deg);
 }
 
-#navigation {
-    z-index: 4;
+#title {
+    margin: 0px;
+    margin-left: -75px;
+    text-align: center;
+    display: block;
+    background-color: white;
+    color: black;
+    font-size: 48px;
+
+    transform: rotate(-.5deg);
+    -webkit-transform: rotate(-.5deg);
+    -o-transform: rotate(-.5deg);
 }
 
 #navigation > * {
@@ -84,6 +78,7 @@ body > h1 {
     display: block;
     text-align: center;
     font-size: 20px;
+    z-index: 10;
 }
 
 #nav_about {
@@ -160,7 +155,8 @@ body > h1 {
 }
 
 #article {
-    padding-top: 145px;
+    z-index: 1;
+    padding-top: 115px;
     padding-left: 80px;
     padding-right: 20px;
     padding-bottom: 2em;
