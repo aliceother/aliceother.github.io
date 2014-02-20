@@ -5,7 +5,7 @@ body {
     margin-left: 125px;
     font-size: 18px;
 
-    background-image: url('bg_photo.png');
+    background-image: url('bg_rain.png');
     background-size: 100% auto;
     background-position: top center;
 }
@@ -62,14 +62,21 @@ body > h1 {
 
 #title {
     margin: 0px;
-    margin-left: -75px;
-    margin-top: 14px;
-    margin-bottom: -14px;
+    margin-left: -45px;
+    margin-right: 30px;
+    margin-top: 20px;
+    margin-bottom: 0px;
     text-align: center;
     display: block;
     color: #222;
     font-size: 48px;
     font-family: chunk;
+    background-color: white;
+
+    z-index: 4;
+    
+    box-shadow: 0px 1px 2px #ccc;
+    -webkit-box-shadow: 0px 1px 2px #ccc;
 
     transform: rotate(-.5deg);
     -webkit-transform: rotate(-.5deg);
@@ -173,6 +180,17 @@ body > h1 {
     text-indent: 2em;
     text-align: justify;
     color: black;
+    background-color: white;
+
+    padding: 4px;
+
+    box-shadow: 0px 1px 2px #ccc;
+    -webkit-box-shadow: 0px 1px 2px #ccc;
+}
+
+#article > p:nth-child(even) {
+    margin-left: -8px;
+    margin-right: 8px;
 }
 
 img.right {
