@@ -27,8 +27,8 @@ h1, h2 {
 
 body > h1 {
     position: absolute;
-    top: 0px;
-    left: 0px;
+    top: 3px;
+    left: 90px;
     display: block;
     background-color: #222;
     color: white;
